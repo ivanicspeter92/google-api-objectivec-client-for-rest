@@ -6,7 +6,7 @@ let package = Package(
     name: "GoogleAPIClientForREST",
     platforms: [
         .iOS(.v10),
-        .macOS(.v10_12),
+        .macOS(.v10-12),
         .tvOS(.v10),
         .watchOS(.v6)
     ],
@@ -18,1148 +18,1148 @@ let package = Package(
         ),
         // Products for all the Services.
         .library(
-            name: "GoogleAPIClientForREST_AbusiveExperienceReport",
-            targets: ["GoogleAPIClientForREST_AbusiveExperienceReport"]
+            name: "GoogleAPIClientForREST-AbusiveExperienceReport",
+            targets: ["GoogleAPIClientForREST-AbusiveExperienceReport"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Acceleratedmobilepageurl",
-            targets: ["GoogleAPIClientForREST_Acceleratedmobilepageurl"]
+            name: "GoogleAPIClientForREST-Acceleratedmobilepageurl",
+            targets: ["GoogleAPIClientForREST-Acceleratedmobilepageurl"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AccessApproval",
-            targets: ["GoogleAPIClientForREST_AccessApproval"]
+            name: "GoogleAPIClientForREST-AccessApproval",
+            targets: ["GoogleAPIClientForREST-AccessApproval"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AccessContextManager",
-            targets: ["GoogleAPIClientForREST_AccessContextManager"]
+            name: "GoogleAPIClientForREST-AccessContextManager",
+            targets: ["GoogleAPIClientForREST-AccessContextManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ACMEDNS",
-            targets: ["GoogleAPIClientForREST_ACMEDNS"]
+            name: "GoogleAPIClientForREST-ACMEDNS",
+            targets: ["GoogleAPIClientForREST-ACMEDNS"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AddressValidation",
-            targets: ["GoogleAPIClientForREST_AddressValidation"]
+            name: "GoogleAPIClientForREST-AddressValidation",
+            targets: ["GoogleAPIClientForREST-AddressValidation"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AdExchangeBuyerII",
-            targets: ["GoogleAPIClientForREST_AdExchangeBuyerII"]
+            name: "GoogleAPIClientForREST-AdExchangeBuyerII",
+            targets: ["GoogleAPIClientForREST-AdExchangeBuyerII"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AdExperienceReport",
-            targets: ["GoogleAPIClientForREST_AdExperienceReport"]
+            name: "GoogleAPIClientForREST-AdExperienceReport",
+            targets: ["GoogleAPIClientForREST-AdExperienceReport"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AdMob",
-            targets: ["GoogleAPIClientForREST_AdMob"]
+            name: "GoogleAPIClientForREST-AdMob",
+            targets: ["GoogleAPIClientForREST-AdMob"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Adsense",
-            targets: ["GoogleAPIClientForREST_Adsense"]
+            name: "GoogleAPIClientForREST-Adsense",
+            targets: ["GoogleAPIClientForREST-Adsense"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AdSenseHost",
-            targets: ["GoogleAPIClientForREST_AdSenseHost"]
+            name: "GoogleAPIClientForREST-AdSenseHost",
+            targets: ["GoogleAPIClientForREST-AdSenseHost"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Advisorynotifications",
-            targets: ["GoogleAPIClientForREST_Advisorynotifications"]
+            name: "GoogleAPIClientForREST-Advisorynotifications",
+            targets: ["GoogleAPIClientForREST-Advisorynotifications"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Aiplatform",
-            targets: ["GoogleAPIClientForREST_Aiplatform"]
+            name: "GoogleAPIClientForREST-Aiplatform",
+            targets: ["GoogleAPIClientForREST-Aiplatform"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AIPlatformNotebooks",
-            targets: ["GoogleAPIClientForREST_AIPlatformNotebooks"]
+            name: "GoogleAPIClientForREST-AIPlatformNotebooks",
+            targets: ["GoogleAPIClientForREST-AIPlatformNotebooks"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AirQuality",
-            targets: ["GoogleAPIClientForREST_AirQuality"]
+            name: "GoogleAPIClientForREST-AirQuality",
+            targets: ["GoogleAPIClientForREST-AirQuality"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AlertCenter",
-            targets: ["GoogleAPIClientForREST_AlertCenter"]
+            name: "GoogleAPIClientForREST-AlertCenter",
+            targets: ["GoogleAPIClientForREST-AlertCenter"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Analytics",
-            targets: ["GoogleAPIClientForREST_Analytics"]
+            name: "GoogleAPIClientForREST-Analytics",
+            targets: ["GoogleAPIClientForREST-Analytics"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AnalyticsData",
-            targets: ["GoogleAPIClientForREST_AnalyticsData"]
+            name: "GoogleAPIClientForREST-AnalyticsData",
+            targets: ["GoogleAPIClientForREST-AnalyticsData"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AnalyticsHub",
-            targets: ["GoogleAPIClientForREST_AnalyticsHub"]
+            name: "GoogleAPIClientForREST-AnalyticsHub",
+            targets: ["GoogleAPIClientForREST-AnalyticsHub"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AnalyticsReporting",
-            targets: ["GoogleAPIClientForREST_AnalyticsReporting"]
+            name: "GoogleAPIClientForREST-AnalyticsReporting",
+            targets: ["GoogleAPIClientForREST-AnalyticsReporting"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AndroidEnterprise",
-            targets: ["GoogleAPIClientForREST_AndroidEnterprise"]
+            name: "GoogleAPIClientForREST-AndroidEnterprise",
+            targets: ["GoogleAPIClientForREST-AndroidEnterprise"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AndroidManagement",
-            targets: ["GoogleAPIClientForREST_AndroidManagement"]
+            name: "GoogleAPIClientForREST-AndroidManagement",
+            targets: ["GoogleAPIClientForREST-AndroidManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AndroidProvisioningPartner",
-            targets: ["GoogleAPIClientForREST_AndroidProvisioningPartner"]
+            name: "GoogleAPIClientForREST-AndroidProvisioningPartner",
+            targets: ["GoogleAPIClientForREST-AndroidProvisioningPartner"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AndroidPublisher",
-            targets: ["GoogleAPIClientForREST_AndroidPublisher"]
+            name: "GoogleAPIClientForREST-AndroidPublisher",
+            targets: ["GoogleAPIClientForREST-AndroidPublisher"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_APIGateway",
-            targets: ["GoogleAPIClientForREST_APIGateway"]
+            name: "GoogleAPIClientForREST-APIGateway",
+            targets: ["GoogleAPIClientForREST-APIGateway"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Apigee",
-            targets: ["GoogleAPIClientForREST_Apigee"]
+            name: "GoogleAPIClientForREST-Apigee",
+            targets: ["GoogleAPIClientForREST-Apigee"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ApigeeRegistry",
-            targets: ["GoogleAPIClientForREST_ApigeeRegistry"]
+            name: "GoogleAPIClientForREST-ApigeeRegistry",
+            targets: ["GoogleAPIClientForREST-ApigeeRegistry"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ApiKeysService",
-            targets: ["GoogleAPIClientForREST_ApiKeysService"]
+            name: "GoogleAPIClientForREST-ApiKeysService",
+            targets: ["GoogleAPIClientForREST-ApiKeysService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_APIManagement",
-            targets: ["GoogleAPIClientForREST_APIManagement"]
+            name: "GoogleAPIClientForREST-APIManagement",
+            targets: ["GoogleAPIClientForREST-APIManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Appengine",
-            targets: ["GoogleAPIClientForREST_Appengine"]
+            name: "GoogleAPIClientForREST-Appengine",
+            targets: ["GoogleAPIClientForREST-Appengine"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AppHub",
-            targets: ["GoogleAPIClientForREST_AppHub"]
+            name: "GoogleAPIClientForREST-AppHub",
+            targets: ["GoogleAPIClientForREST-AppHub"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Area120Tables",
-            targets: ["GoogleAPIClientForREST_Area120Tables"]
+            name: "GoogleAPIClientForREST-Area120Tables",
+            targets: ["GoogleAPIClientForREST-Area120Tables"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ArtifactRegistry",
-            targets: ["GoogleAPIClientForREST_ArtifactRegistry"]
+            name: "GoogleAPIClientForREST-ArtifactRegistry",
+            targets: ["GoogleAPIClientForREST-ArtifactRegistry"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Assuredworkloads",
-            targets: ["GoogleAPIClientForREST_Assuredworkloads"]
+            name: "GoogleAPIClientForREST-Assuredworkloads",
+            targets: ["GoogleAPIClientForREST-Assuredworkloads"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_AuthorizedBuyersMarketplace",
-            targets: ["GoogleAPIClientForREST_AuthorizedBuyersMarketplace"]
+            name: "GoogleAPIClientForREST-AuthorizedBuyersMarketplace",
+            targets: ["GoogleAPIClientForREST-AuthorizedBuyersMarketplace"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Backupdr",
-            targets: ["GoogleAPIClientForREST_Backupdr"]
+            name: "GoogleAPIClientForREST-Backupdr",
+            targets: ["GoogleAPIClientForREST-Backupdr"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BackupforGKE",
-            targets: ["GoogleAPIClientForREST_BackupforGKE"]
+            name: "GoogleAPIClientForREST-BackupforGKE",
+            targets: ["GoogleAPIClientForREST-BackupforGKE"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BareMetalSolution",
-            targets: ["GoogleAPIClientForREST_BareMetalSolution"]
+            name: "GoogleAPIClientForREST-BareMetalSolution",
+            targets: ["GoogleAPIClientForREST-BareMetalSolution"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BeyondCorp",
-            targets: ["GoogleAPIClientForREST_BeyondCorp"]
+            name: "GoogleAPIClientForREST-BeyondCorp",
+            targets: ["GoogleAPIClientForREST-BeyondCorp"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BigLakeService",
-            targets: ["GoogleAPIClientForREST_BigLakeService"]
+            name: "GoogleAPIClientForREST-BigLakeService",
+            targets: ["GoogleAPIClientForREST-BigLakeService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Bigquery",
-            targets: ["GoogleAPIClientForREST_Bigquery"]
+            name: "GoogleAPIClientForREST-Bigquery",
+            targets: ["GoogleAPIClientForREST-Bigquery"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BigQueryConnectionService",
-            targets: ["GoogleAPIClientForREST_BigQueryConnectionService"]
+            name: "GoogleAPIClientForREST-BigQueryConnectionService",
+            targets: ["GoogleAPIClientForREST-BigQueryConnectionService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BigQueryDataPolicyService",
-            targets: ["GoogleAPIClientForREST_BigQueryDataPolicyService"]
+            name: "GoogleAPIClientForREST-BigQueryDataPolicyService",
+            targets: ["GoogleAPIClientForREST-BigQueryDataPolicyService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BigQueryDataTransfer",
-            targets: ["GoogleAPIClientForREST_BigQueryDataTransfer"]
+            name: "GoogleAPIClientForREST-BigQueryDataTransfer",
+            targets: ["GoogleAPIClientForREST-BigQueryDataTransfer"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BigQueryReservation",
-            targets: ["GoogleAPIClientForREST_BigQueryReservation"]
+            name: "GoogleAPIClientForREST-BigQueryReservation",
+            targets: ["GoogleAPIClientForREST-BigQueryReservation"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BigtableAdmin",
-            targets: ["GoogleAPIClientForREST_BigtableAdmin"]
+            name: "GoogleAPIClientForREST-BigtableAdmin",
+            targets: ["GoogleAPIClientForREST-BigtableAdmin"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BinaryAuthorization",
-            targets: ["GoogleAPIClientForREST_BinaryAuthorization"]
+            name: "GoogleAPIClientForREST-BinaryAuthorization",
+            targets: ["GoogleAPIClientForREST-BinaryAuthorization"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BlockchainNodeEngine",
-            targets: ["GoogleAPIClientForREST_BlockchainNodeEngine"]
+            name: "GoogleAPIClientForREST-BlockchainNodeEngine",
+            targets: ["GoogleAPIClientForREST-BlockchainNodeEngine"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Blogger",
-            targets: ["GoogleAPIClientForREST_Blogger"]
+            name: "GoogleAPIClientForREST-Blogger",
+            targets: ["GoogleAPIClientForREST-Blogger"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Books",
-            targets: ["GoogleAPIClientForREST_Books"]
+            name: "GoogleAPIClientForREST-Books",
+            targets: ["GoogleAPIClientForREST-Books"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_BusinessProfilePerformance",
-            targets: ["GoogleAPIClientForREST_BusinessProfilePerformance"]
+            name: "GoogleAPIClientForREST-BusinessProfilePerformance",
+            targets: ["GoogleAPIClientForREST-BusinessProfilePerformance"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Calendar",
-            targets: ["GoogleAPIClientForREST_Calendar"]
+            name: "GoogleAPIClientForREST-Calendar",
+            targets: ["GoogleAPIClientForREST-Calendar"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CCAIPlatform",
-            targets: ["GoogleAPIClientForREST_CCAIPlatform"]
+            name: "GoogleAPIClientForREST-CCAIPlatform",
+            targets: ["GoogleAPIClientForREST-CCAIPlatform"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CertificateAuthorityService",
-            targets: ["GoogleAPIClientForREST_CertificateAuthorityService"]
+            name: "GoogleAPIClientForREST-CertificateAuthorityService",
+            targets: ["GoogleAPIClientForREST-CertificateAuthorityService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CertificateManager",
-            targets: ["GoogleAPIClientForREST_CertificateManager"]
+            name: "GoogleAPIClientForREST-CertificateManager",
+            targets: ["GoogleAPIClientForREST-CertificateManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ChecksService",
-            targets: ["GoogleAPIClientForREST_ChecksService"]
+            name: "GoogleAPIClientForREST-ChecksService",
+            targets: ["GoogleAPIClientForREST-ChecksService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ChromeManagement",
-            targets: ["GoogleAPIClientForREST_ChromeManagement"]
+            name: "GoogleAPIClientForREST-ChromeManagement",
+            targets: ["GoogleAPIClientForREST-ChromeManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ChromePolicy",
-            targets: ["GoogleAPIClientForREST_ChromePolicy"]
+            name: "GoogleAPIClientForREST-ChromePolicy",
+            targets: ["GoogleAPIClientForREST-ChromePolicy"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ChromeUXReport",
-            targets: ["GoogleAPIClientForREST_ChromeUXReport"]
+            name: "GoogleAPIClientForREST-ChromeUXReport",
+            targets: ["GoogleAPIClientForREST-ChromeUXReport"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CivicInfo",
-            targets: ["GoogleAPIClientForREST_CivicInfo"]
+            name: "GoogleAPIClientForREST-CivicInfo",
+            targets: ["GoogleAPIClientForREST-CivicInfo"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Classroom",
-            targets: ["GoogleAPIClientForREST_Classroom"]
+            name: "GoogleAPIClientForREST-Classroom",
+            targets: ["GoogleAPIClientForREST-Classroom"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudAlloyDBAdmin",
-            targets: ["GoogleAPIClientForREST_CloudAlloyDBAdmin"]
+            name: "GoogleAPIClientForREST-CloudAlloyDBAdmin",
+            targets: ["GoogleAPIClientForREST-CloudAlloyDBAdmin"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudAsset",
-            targets: ["GoogleAPIClientForREST_CloudAsset"]
+            name: "GoogleAPIClientForREST-CloudAsset",
+            targets: ["GoogleAPIClientForREST-CloudAsset"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudBatch",
-            targets: ["GoogleAPIClientForREST_CloudBatch"]
+            name: "GoogleAPIClientForREST-CloudBatch",
+            targets: ["GoogleAPIClientForREST-CloudBatch"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Cloudbilling",
-            targets: ["GoogleAPIClientForREST_Cloudbilling"]
+            name: "GoogleAPIClientForREST-Cloudbilling",
+            targets: ["GoogleAPIClientForREST-Cloudbilling"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudBillingBudget",
-            targets: ["GoogleAPIClientForREST_CloudBillingBudget"]
+            name: "GoogleAPIClientForREST-CloudBillingBudget",
+            targets: ["GoogleAPIClientForREST-CloudBillingBudget"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudBuild",
-            targets: ["GoogleAPIClientForREST_CloudBuild"]
+            name: "GoogleAPIClientForREST-CloudBuild",
+            targets: ["GoogleAPIClientForREST-CloudBuild"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Cloudchannel",
-            targets: ["GoogleAPIClientForREST_Cloudchannel"]
+            name: "GoogleAPIClientForREST-Cloudchannel",
+            targets: ["GoogleAPIClientForREST-Cloudchannel"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudComposer",
-            targets: ["GoogleAPIClientForREST_CloudComposer"]
+            name: "GoogleAPIClientForREST-CloudComposer",
+            targets: ["GoogleAPIClientForREST-CloudComposer"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudControlsPartnerService",
-            targets: ["GoogleAPIClientForREST_CloudControlsPartnerService"]
+            name: "GoogleAPIClientForREST-CloudControlsPartnerService",
+            targets: ["GoogleAPIClientForREST-CloudControlsPartnerService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudDataplex",
-            targets: ["GoogleAPIClientForREST_CloudDataplex"]
+            name: "GoogleAPIClientForREST-CloudDataplex",
+            targets: ["GoogleAPIClientForREST-CloudDataplex"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudDeploy",
-            targets: ["GoogleAPIClientForREST_CloudDeploy"]
+            name: "GoogleAPIClientForREST-CloudDeploy",
+            targets: ["GoogleAPIClientForREST-CloudDeploy"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudDomains",
-            targets: ["GoogleAPIClientForREST_CloudDomains"]
+            name: "GoogleAPIClientForREST-CloudDomains",
+            targets: ["GoogleAPIClientForREST-CloudDomains"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Clouderrorreporting",
-            targets: ["GoogleAPIClientForREST_Clouderrorreporting"]
+            name: "GoogleAPIClientForREST-Clouderrorreporting",
+            targets: ["GoogleAPIClientForREST-Clouderrorreporting"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudFilestore",
-            targets: ["GoogleAPIClientForREST_CloudFilestore"]
+            name: "GoogleAPIClientForREST-CloudFilestore",
+            targets: ["GoogleAPIClientForREST-CloudFilestore"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudFunctions",
-            targets: ["GoogleAPIClientForREST_CloudFunctions"]
+            name: "GoogleAPIClientForREST-CloudFunctions",
+            targets: ["GoogleAPIClientForREST-CloudFunctions"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudHealthcare",
-            targets: ["GoogleAPIClientForREST_CloudHealthcare"]
+            name: "GoogleAPIClientForREST-CloudHealthcare",
+            targets: ["GoogleAPIClientForREST-CloudHealthcare"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudIAP",
-            targets: ["GoogleAPIClientForREST_CloudIAP"]
+            name: "GoogleAPIClientForREST-CloudIAP",
+            targets: ["GoogleAPIClientForREST-CloudIAP"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudIdentity",
-            targets: ["GoogleAPIClientForREST_CloudIdentity"]
+            name: "GoogleAPIClientForREST-CloudIdentity",
+            targets: ["GoogleAPIClientForREST-CloudIdentity"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudKMS",
-            targets: ["GoogleAPIClientForREST_CloudKMS"]
+            name: "GoogleAPIClientForREST-CloudKMS",
+            targets: ["GoogleAPIClientForREST-CloudKMS"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudLifeSciences",
-            targets: ["GoogleAPIClientForREST_CloudLifeSciences"]
+            name: "GoogleAPIClientForREST-CloudLifeSciences",
+            targets: ["GoogleAPIClientForREST-CloudLifeSciences"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudMachineLearningEngine",
-            targets: ["GoogleAPIClientForREST_CloudMachineLearningEngine"]
+            name: "GoogleAPIClientForREST-CloudMachineLearningEngine",
+            targets: ["GoogleAPIClientForREST-CloudMachineLearningEngine"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudMemorystoreforMemcached",
-            targets: ["GoogleAPIClientForREST_CloudMemorystoreforMemcached"]
+            name: "GoogleAPIClientForREST-CloudMemorystoreforMemcached",
+            targets: ["GoogleAPIClientForREST-CloudMemorystoreforMemcached"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudNaturalLanguage",
-            targets: ["GoogleAPIClientForREST_CloudNaturalLanguage"]
+            name: "GoogleAPIClientForREST-CloudNaturalLanguage",
+            targets: ["GoogleAPIClientForREST-CloudNaturalLanguage"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudOSLogin",
-            targets: ["GoogleAPIClientForREST_CloudOSLogin"]
+            name: "GoogleAPIClientForREST-CloudOSLogin",
+            targets: ["GoogleAPIClientForREST-CloudOSLogin"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudProfiler",
-            targets: ["GoogleAPIClientForREST_CloudProfiler"]
+            name: "GoogleAPIClientForREST-CloudProfiler",
+            targets: ["GoogleAPIClientForREST-CloudProfiler"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudRedis",
-            targets: ["GoogleAPIClientForREST_CloudRedis"]
+            name: "GoogleAPIClientForREST-CloudRedis",
+            targets: ["GoogleAPIClientForREST-CloudRedis"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudResourceManager",
-            targets: ["GoogleAPIClientForREST_CloudResourceManager"]
+            name: "GoogleAPIClientForREST-CloudResourceManager",
+            targets: ["GoogleAPIClientForREST-CloudResourceManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudRetail",
-            targets: ["GoogleAPIClientForREST_CloudRetail"]
+            name: "GoogleAPIClientForREST-CloudRetail",
+            targets: ["GoogleAPIClientForREST-CloudRetail"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudRun",
-            targets: ["GoogleAPIClientForREST_CloudRun"]
+            name: "GoogleAPIClientForREST-CloudRun",
+            targets: ["GoogleAPIClientForREST-CloudRun"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudRuntimeConfig",
-            targets: ["GoogleAPIClientForREST_CloudRuntimeConfig"]
+            name: "GoogleAPIClientForREST-CloudRuntimeConfig",
+            targets: ["GoogleAPIClientForREST-CloudRuntimeConfig"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudScheduler",
-            targets: ["GoogleAPIClientForREST_CloudScheduler"]
+            name: "GoogleAPIClientForREST-CloudScheduler",
+            targets: ["GoogleAPIClientForREST-CloudScheduler"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudSearch",
-            targets: ["GoogleAPIClientForREST_CloudSearch"]
+            name: "GoogleAPIClientForREST-CloudSearch",
+            targets: ["GoogleAPIClientForREST-CloudSearch"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudSecurityToken",
-            targets: ["GoogleAPIClientForREST_CloudSecurityToken"]
+            name: "GoogleAPIClientForREST-CloudSecurityToken",
+            targets: ["GoogleAPIClientForREST-CloudSecurityToken"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudShell",
-            targets: ["GoogleAPIClientForREST_CloudShell"]
+            name: "GoogleAPIClientForREST-CloudShell",
+            targets: ["GoogleAPIClientForREST-CloudShell"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudSourceRepositories",
-            targets: ["GoogleAPIClientForREST_CloudSourceRepositories"]
+            name: "GoogleAPIClientForREST-CloudSourceRepositories",
+            targets: ["GoogleAPIClientForREST-CloudSourceRepositories"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudSupport",
-            targets: ["GoogleAPIClientForREST_CloudSupport"]
+            name: "GoogleAPIClientForREST-CloudSupport",
+            targets: ["GoogleAPIClientForREST-CloudSupport"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudTalentSolution",
-            targets: ["GoogleAPIClientForREST_CloudTalentSolution"]
+            name: "GoogleAPIClientForREST-CloudTalentSolution",
+            targets: ["GoogleAPIClientForREST-CloudTalentSolution"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudTasks",
-            targets: ["GoogleAPIClientForREST_CloudTasks"]
+            name: "GoogleAPIClientForREST-CloudTasks",
+            targets: ["GoogleAPIClientForREST-CloudTasks"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudTrace",
-            targets: ["GoogleAPIClientForREST_CloudTrace"]
+            name: "GoogleAPIClientForREST-CloudTrace",
+            targets: ["GoogleAPIClientForREST-CloudTrace"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudVideoIntelligence",
-            targets: ["GoogleAPIClientForREST_CloudVideoIntelligence"]
+            name: "GoogleAPIClientForREST-CloudVideoIntelligence",
+            targets: ["GoogleAPIClientForREST-CloudVideoIntelligence"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CloudWorkstations",
-            targets: ["GoogleAPIClientForREST_CloudWorkstations"]
+            name: "GoogleAPIClientForREST-CloudWorkstations",
+            targets: ["GoogleAPIClientForREST-CloudWorkstations"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Compute",
-            targets: ["GoogleAPIClientForREST_Compute"]
+            name: "GoogleAPIClientForREST-Compute",
+            targets: ["GoogleAPIClientForREST-Compute"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Config",
-            targets: ["GoogleAPIClientForREST_Config"]
+            name: "GoogleAPIClientForREST-Config",
+            targets: ["GoogleAPIClientForREST-Config"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Connectors",
-            targets: ["GoogleAPIClientForREST_Connectors"]
+            name: "GoogleAPIClientForREST-Connectors",
+            targets: ["GoogleAPIClientForREST-Connectors"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Contactcenterinsights",
-            targets: ["GoogleAPIClientForREST_Contactcenterinsights"]
+            name: "GoogleAPIClientForREST-Contactcenterinsights",
+            targets: ["GoogleAPIClientForREST-Contactcenterinsights"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Container",
-            targets: ["GoogleAPIClientForREST_Container"]
+            name: "GoogleAPIClientForREST-Container",
+            targets: ["GoogleAPIClientForREST-Container"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ContainerAnalysis",
-            targets: ["GoogleAPIClientForREST_ContainerAnalysis"]
+            name: "GoogleAPIClientForREST-ContainerAnalysis",
+            targets: ["GoogleAPIClientForREST-ContainerAnalysis"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Contentwarehouse",
-            targets: ["GoogleAPIClientForREST_Contentwarehouse"]
+            name: "GoogleAPIClientForREST-Contentwarehouse",
+            targets: ["GoogleAPIClientForREST-Contentwarehouse"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_CustomSearchAPI",
-            targets: ["GoogleAPIClientForREST_CustomSearchAPI"]
+            name: "GoogleAPIClientForREST-CustomSearchAPI",
+            targets: ["GoogleAPIClientForREST-CustomSearchAPI"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DatabaseMigrationService",
-            targets: ["GoogleAPIClientForREST_DatabaseMigrationService"]
+            name: "GoogleAPIClientForREST-DatabaseMigrationService",
+            targets: ["GoogleAPIClientForREST-DatabaseMigrationService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DataCatalog",
-            targets: ["GoogleAPIClientForREST_DataCatalog"]
+            name: "GoogleAPIClientForREST-DataCatalog",
+            targets: ["GoogleAPIClientForREST-DataCatalog"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Dataflow",
-            targets: ["GoogleAPIClientForREST_Dataflow"]
+            name: "GoogleAPIClientForREST-Dataflow",
+            targets: ["GoogleAPIClientForREST-Dataflow"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Dataform",
-            targets: ["GoogleAPIClientForREST_Dataform"]
+            name: "GoogleAPIClientForREST-Dataform",
+            targets: ["GoogleAPIClientForREST-Dataform"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DataFusion",
-            targets: ["GoogleAPIClientForREST_DataFusion"]
+            name: "GoogleAPIClientForREST-DataFusion",
+            targets: ["GoogleAPIClientForREST-DataFusion"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DataLabeling",
-            targets: ["GoogleAPIClientForREST_DataLabeling"]
+            name: "GoogleAPIClientForREST-DataLabeling",
+            targets: ["GoogleAPIClientForREST-DataLabeling"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Datalineage",
-            targets: ["GoogleAPIClientForREST_Datalineage"]
+            name: "GoogleAPIClientForREST-Datalineage",
+            targets: ["GoogleAPIClientForREST-Datalineage"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Datapipelines",
-            targets: ["GoogleAPIClientForREST_Datapipelines"]
+            name: "GoogleAPIClientForREST-Datapipelines",
+            targets: ["GoogleAPIClientForREST-Datapipelines"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DataPortability",
-            targets: ["GoogleAPIClientForREST_DataPortability"]
+            name: "GoogleAPIClientForREST-DataPortability",
+            targets: ["GoogleAPIClientForREST-DataPortability"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Dataproc",
-            targets: ["GoogleAPIClientForREST_Dataproc"]
+            name: "GoogleAPIClientForREST-Dataproc",
+            targets: ["GoogleAPIClientForREST-Dataproc"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DataprocMetastore",
-            targets: ["GoogleAPIClientForREST_DataprocMetastore"]
+            name: "GoogleAPIClientForREST-DataprocMetastore",
+            targets: ["GoogleAPIClientForREST-DataprocMetastore"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Datastore",
-            targets: ["GoogleAPIClientForREST_Datastore"]
+            name: "GoogleAPIClientForREST-Datastore",
+            targets: ["GoogleAPIClientForREST-Datastore"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Datastream",
-            targets: ["GoogleAPIClientForREST_Datastream"]
+            name: "GoogleAPIClientForREST-Datastream",
+            targets: ["GoogleAPIClientForREST-Datastream"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DataTransfer",
-            targets: ["GoogleAPIClientForREST_DataTransfer"]
+            name: "GoogleAPIClientForREST-DataTransfer",
+            targets: ["GoogleAPIClientForREST-DataTransfer"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DeploymentManager",
-            targets: ["GoogleAPIClientForREST_DeploymentManager"]
+            name: "GoogleAPIClientForREST-DeploymentManager",
+            targets: ["GoogleAPIClientForREST-DeploymentManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DeveloperConnect",
-            targets: ["GoogleAPIClientForREST_DeveloperConnect"]
+            name: "GoogleAPIClientForREST-DeveloperConnect",
+            targets: ["GoogleAPIClientForREST-DeveloperConnect"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Dfareporting",
-            targets: ["GoogleAPIClientForREST_Dfareporting"]
+            name: "GoogleAPIClientForREST-Dfareporting",
+            targets: ["GoogleAPIClientForREST-Dfareporting"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Dialogflow",
-            targets: ["GoogleAPIClientForREST_Dialogflow"]
+            name: "GoogleAPIClientForREST-Dialogflow",
+            targets: ["GoogleAPIClientForREST-Dialogflow"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DigitalAssetLinks",
-            targets: ["GoogleAPIClientForREST_DigitalAssetLinks"]
+            name: "GoogleAPIClientForREST-DigitalAssetLinks",
+            targets: ["GoogleAPIClientForREST-DigitalAssetLinks"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Directory",
-            targets: ["GoogleAPIClientForREST_Directory"]
+            name: "GoogleAPIClientForREST-Directory",
+            targets: ["GoogleAPIClientForREST-Directory"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Discovery",
-            targets: ["GoogleAPIClientForREST_Discovery"]
+            name: "GoogleAPIClientForREST-Discovery",
+            targets: ["GoogleAPIClientForREST-Discovery"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DiscoveryEngine",
-            targets: ["GoogleAPIClientForREST_DiscoveryEngine"]
+            name: "GoogleAPIClientForREST-DiscoveryEngine",
+            targets: ["GoogleAPIClientForREST-DiscoveryEngine"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DisplayVideo",
-            targets: ["GoogleAPIClientForREST_DisplayVideo"]
+            name: "GoogleAPIClientForREST-DisplayVideo",
+            targets: ["GoogleAPIClientForREST-DisplayVideo"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DLP",
-            targets: ["GoogleAPIClientForREST_DLP"]
+            name: "GoogleAPIClientForREST-DLP",
+            targets: ["GoogleAPIClientForREST-DLP"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Dns",
-            targets: ["GoogleAPIClientForREST_Dns"]
+            name: "GoogleAPIClientForREST-Dns",
+            targets: ["GoogleAPIClientForREST-Dns"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Docs",
-            targets: ["GoogleAPIClientForREST_Docs"]
+            name: "GoogleAPIClientForREST-Docs",
+            targets: ["GoogleAPIClientForREST-Docs"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Document",
-            targets: ["GoogleAPIClientForREST_Document"]
+            name: "GoogleAPIClientForREST-Document",
+            targets: ["GoogleAPIClientForREST-Document"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DomainsRDAP",
-            targets: ["GoogleAPIClientForREST_DomainsRDAP"]
+            name: "GoogleAPIClientForREST-DomainsRDAP",
+            targets: ["GoogleAPIClientForREST-DomainsRDAP"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DoubleClickBidManager",
-            targets: ["GoogleAPIClientForREST_DoubleClickBidManager"]
+            name: "GoogleAPIClientForREST-DoubleClickBidManager",
+            targets: ["GoogleAPIClientForREST-DoubleClickBidManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Doubleclicksearch",
-            targets: ["GoogleAPIClientForREST_Doubleclicksearch"]
+            name: "GoogleAPIClientForREST-Doubleclicksearch",
+            targets: ["GoogleAPIClientForREST-Doubleclicksearch"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Drive",
-            targets: ["GoogleAPIClientForREST_Drive"]
+            name: "GoogleAPIClientForREST-Drive",
+            targets: ["GoogleAPIClientForREST-Drive"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DriveActivity",
-            targets: ["GoogleAPIClientForREST_DriveActivity"]
+            name: "GoogleAPIClientForREST-DriveActivity",
+            targets: ["GoogleAPIClientForREST-DriveActivity"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_DriveLabels",
-            targets: ["GoogleAPIClientForREST_DriveLabels"]
+            name: "GoogleAPIClientForREST-DriveLabels",
+            targets: ["GoogleAPIClientForREST-DriveLabels"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Essentialcontacts",
-            targets: ["GoogleAPIClientForREST_Essentialcontacts"]
+            name: "GoogleAPIClientForREST-Essentialcontacts",
+            targets: ["GoogleAPIClientForREST-Essentialcontacts"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Eventarc",
-            targets: ["GoogleAPIClientForREST_Eventarc"]
+            name: "GoogleAPIClientForREST-Eventarc",
+            targets: ["GoogleAPIClientForREST-Eventarc"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FactCheckTools",
-            targets: ["GoogleAPIClientForREST_FactCheckTools"]
+            name: "GoogleAPIClientForREST-FactCheckTools",
+            targets: ["GoogleAPIClientForREST-FactCheckTools"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Fcmdata",
-            targets: ["GoogleAPIClientForREST_Fcmdata"]
+            name: "GoogleAPIClientForREST-Fcmdata",
+            targets: ["GoogleAPIClientForREST-Fcmdata"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Firebaseappcheck",
-            targets: ["GoogleAPIClientForREST_Firebaseappcheck"]
+            name: "GoogleAPIClientForREST-Firebaseappcheck",
+            targets: ["GoogleAPIClientForREST-Firebaseappcheck"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseAppDistribution",
-            targets: ["GoogleAPIClientForREST_FirebaseAppDistribution"]
+            name: "GoogleAPIClientForREST-FirebaseAppDistribution",
+            targets: ["GoogleAPIClientForREST-FirebaseAppDistribution"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseCloudMessaging",
-            targets: ["GoogleAPIClientForREST_FirebaseCloudMessaging"]
+            name: "GoogleAPIClientForREST-FirebaseCloudMessaging",
+            targets: ["GoogleAPIClientForREST-FirebaseCloudMessaging"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseDynamicLinks",
-            targets: ["GoogleAPIClientForREST_FirebaseDynamicLinks"]
+            name: "GoogleAPIClientForREST-FirebaseDynamicLinks",
+            targets: ["GoogleAPIClientForREST-FirebaseDynamicLinks"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseHosting",
-            targets: ["GoogleAPIClientForREST_FirebaseHosting"]
+            name: "GoogleAPIClientForREST-FirebaseHosting",
+            targets: ["GoogleAPIClientForREST-FirebaseHosting"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseManagement",
-            targets: ["GoogleAPIClientForREST_FirebaseManagement"]
+            name: "GoogleAPIClientForREST-FirebaseManagement",
+            targets: ["GoogleAPIClientForREST-FirebaseManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseML",
-            targets: ["GoogleAPIClientForREST_FirebaseML"]
+            name: "GoogleAPIClientForREST-FirebaseML",
+            targets: ["GoogleAPIClientForREST-FirebaseML"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseRealtimeDatabase",
-            targets: ["GoogleAPIClientForREST_FirebaseRealtimeDatabase"]
+            name: "GoogleAPIClientForREST-FirebaseRealtimeDatabase",
+            targets: ["GoogleAPIClientForREST-FirebaseRealtimeDatabase"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_FirebaseRules",
-            targets: ["GoogleAPIClientForREST_FirebaseRules"]
+            name: "GoogleAPIClientForREST-FirebaseRules",
+            targets: ["GoogleAPIClientForREST-FirebaseRules"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Firebasestorage",
-            targets: ["GoogleAPIClientForREST_Firebasestorage"]
+            name: "GoogleAPIClientForREST-Firebasestorage",
+            targets: ["GoogleAPIClientForREST-Firebasestorage"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Firestore",
-            targets: ["GoogleAPIClientForREST_Firestore"]
+            name: "GoogleAPIClientForREST-Firestore",
+            targets: ["GoogleAPIClientForREST-Firestore"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Fitness",
-            targets: ["GoogleAPIClientForREST_Fitness"]
+            name: "GoogleAPIClientForREST-Fitness",
+            targets: ["GoogleAPIClientForREST-Fitness"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Forms",
-            targets: ["GoogleAPIClientForREST_Forms"]
+            name: "GoogleAPIClientForREST-Forms",
+            targets: ["GoogleAPIClientForREST-Forms"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Games",
-            targets: ["GoogleAPIClientForREST_Games"]
+            name: "GoogleAPIClientForREST-Games",
+            targets: ["GoogleAPIClientForREST-Games"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GamesConfiguration",
-            targets: ["GoogleAPIClientForREST_GamesConfiguration"]
+            name: "GoogleAPIClientForREST-GamesConfiguration",
+            targets: ["GoogleAPIClientForREST-GamesConfiguration"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GamesManagement",
-            targets: ["GoogleAPIClientForREST_GamesManagement"]
+            name: "GoogleAPIClientForREST-GamesManagement",
+            targets: ["GoogleAPIClientForREST-GamesManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GKEHub",
-            targets: ["GoogleAPIClientForREST_GKEHub"]
+            name: "GoogleAPIClientForREST-GKEHub",
+            targets: ["GoogleAPIClientForREST-GKEHub"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GKEOnPrem",
-            targets: ["GoogleAPIClientForREST_GKEOnPrem"]
+            name: "GoogleAPIClientForREST-GKEOnPrem",
+            targets: ["GoogleAPIClientForREST-GKEOnPrem"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Gmail",
-            targets: ["GoogleAPIClientForREST_Gmail"]
+            name: "GoogleAPIClientForREST-Gmail",
+            targets: ["GoogleAPIClientForREST-Gmail"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GoogleAnalyticsAdmin",
-            targets: ["GoogleAPIClientForREST_GoogleAnalyticsAdmin"]
+            name: "GoogleAPIClientForREST-GoogleAnalyticsAdmin",
+            targets: ["GoogleAPIClientForREST-GoogleAnalyticsAdmin"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GoogleMarketingPlatformAdminAPI",
-            targets: ["GoogleAPIClientForREST_GoogleMarketingPlatformAdminAPI"]
+            name: "GoogleAPIClientForREST-GoogleMarketingPlatformAdminAPI",
+            targets: ["GoogleAPIClientForREST-GoogleMarketingPlatformAdminAPI"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GroupsMigration",
-            targets: ["GoogleAPIClientForREST_GroupsMigration"]
+            name: "GoogleAPIClientForREST-GroupsMigration",
+            targets: ["GoogleAPIClientForREST-GroupsMigration"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_GroupsSettings",
-            targets: ["GoogleAPIClientForREST_GroupsSettings"]
+            name: "GoogleAPIClientForREST-GroupsSettings",
+            targets: ["GoogleAPIClientForREST-GroupsSettings"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_HangoutsChat",
-            targets: ["GoogleAPIClientForREST_HangoutsChat"]
+            name: "GoogleAPIClientForREST-HangoutsChat",
+            targets: ["GoogleAPIClientForREST-HangoutsChat"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_HomeGraphService",
-            targets: ["GoogleAPIClientForREST_HomeGraphService"]
+            name: "GoogleAPIClientForREST-HomeGraphService",
+            targets: ["GoogleAPIClientForREST-HomeGraphService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Iam",
-            targets: ["GoogleAPIClientForREST_Iam"]
+            name: "GoogleAPIClientForREST-Iam",
+            targets: ["GoogleAPIClientForREST-Iam"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_IAMCredentials",
-            targets: ["GoogleAPIClientForREST_IAMCredentials"]
+            name: "GoogleAPIClientForREST-IAMCredentials",
+            targets: ["GoogleAPIClientForREST-IAMCredentials"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_IdentityToolkit",
-            targets: ["GoogleAPIClientForREST_IdentityToolkit"]
+            name: "GoogleAPIClientForREST-IdentityToolkit",
+            targets: ["GoogleAPIClientForREST-IdentityToolkit"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_IDS",
-            targets: ["GoogleAPIClientForREST_IDS"]
+            name: "GoogleAPIClientForREST-IDS",
+            targets: ["GoogleAPIClientForREST-IDS"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Indexing",
-            targets: ["GoogleAPIClientForREST_Indexing"]
+            name: "GoogleAPIClientForREST-Indexing",
+            targets: ["GoogleAPIClientForREST-Indexing"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Integrations",
-            targets: ["GoogleAPIClientForREST_Integrations"]
+            name: "GoogleAPIClientForREST-Integrations",
+            targets: ["GoogleAPIClientForREST-Integrations"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Keep",
-            targets: ["GoogleAPIClientForREST_Keep"]
+            name: "GoogleAPIClientForREST-Keep",
+            targets: ["GoogleAPIClientForREST-Keep"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Kgsearch",
-            targets: ["GoogleAPIClientForREST_Kgsearch"]
+            name: "GoogleAPIClientForREST-Kgsearch",
+            targets: ["GoogleAPIClientForREST-Kgsearch"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Kmsinventory",
-            targets: ["GoogleAPIClientForREST_Kmsinventory"]
+            name: "GoogleAPIClientForREST-Kmsinventory",
+            targets: ["GoogleAPIClientForREST-Kmsinventory"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Libraryagent",
-            targets: ["GoogleAPIClientForREST_Libraryagent"]
+            name: "GoogleAPIClientForREST-Libraryagent",
+            targets: ["GoogleAPIClientForREST-Libraryagent"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Licensing",
-            targets: ["GoogleAPIClientForREST_Licensing"]
+            name: "GoogleAPIClientForREST-Licensing",
+            targets: ["GoogleAPIClientForREST-Licensing"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Localservices",
-            targets: ["GoogleAPIClientForREST_Localservices"]
+            name: "GoogleAPIClientForREST-Localservices",
+            targets: ["GoogleAPIClientForREST-Localservices"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Logging",
-            targets: ["GoogleAPIClientForREST_Logging"]
+            name: "GoogleAPIClientForREST-Logging",
+            targets: ["GoogleAPIClientForREST-Logging"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Looker",
-            targets: ["GoogleAPIClientForREST_Looker"]
+            name: "GoogleAPIClientForREST-Looker",
+            targets: ["GoogleAPIClientForREST-Looker"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ManagedServiceforMicrosoftActiveDirectoryConsumerAPI",
-            targets: ["GoogleAPIClientForREST_ManagedServiceforMicrosoftActiveDirectoryConsumerAPI"]
+            name: "GoogleAPIClientForREST-ManagedServiceforMicrosoftActiveDirectoryConsumerAPI",
+            targets: ["GoogleAPIClientForREST-ManagedServiceforMicrosoftActiveDirectoryConsumerAPI"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ManufacturerCenter",
-            targets: ["GoogleAPIClientForREST_ManufacturerCenter"]
+            name: "GoogleAPIClientForREST-ManufacturerCenter",
+            targets: ["GoogleAPIClientForREST-ManufacturerCenter"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MapsPlaces",
-            targets: ["GoogleAPIClientForREST_MapsPlaces"]
+            name: "GoogleAPIClientForREST-MapsPlaces",
+            targets: ["GoogleAPIClientForREST-MapsPlaces"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Meet",
-            targets: ["GoogleAPIClientForREST_Meet"]
+            name: "GoogleAPIClientForREST-Meet",
+            targets: ["GoogleAPIClientForREST-Meet"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Merchant",
-            targets: ["GoogleAPIClientForREST_Merchant"]
+            name: "GoogleAPIClientForREST-Merchant",
+            targets: ["GoogleAPIClientForREST-Merchant"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MigrationCenterAPI",
-            targets: ["GoogleAPIClientForREST_MigrationCenterAPI"]
+            name: "GoogleAPIClientForREST-MigrationCenterAPI",
+            targets: ["GoogleAPIClientForREST-MigrationCenterAPI"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Monitoring",
-            targets: ["GoogleAPIClientForREST_Monitoring"]
+            name: "GoogleAPIClientForREST-Monitoring",
+            targets: ["GoogleAPIClientForREST-Monitoring"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessAccountManagement",
-            targets: ["GoogleAPIClientForREST_MyBusinessAccountManagement"]
+            name: "GoogleAPIClientForREST-MyBusinessAccountManagement",
+            targets: ["GoogleAPIClientForREST-MyBusinessAccountManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessBusinessInformation",
-            targets: ["GoogleAPIClientForREST_MyBusinessBusinessInformation"]
+            name: "GoogleAPIClientForREST-MyBusinessBusinessInformation",
+            targets: ["GoogleAPIClientForREST-MyBusinessBusinessInformation"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessLodging",
-            targets: ["GoogleAPIClientForREST_MyBusinessLodging"]
+            name: "GoogleAPIClientForREST-MyBusinessLodging",
+            targets: ["GoogleAPIClientForREST-MyBusinessLodging"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessNotificationSettings",
-            targets: ["GoogleAPIClientForREST_MyBusinessNotificationSettings"]
+            name: "GoogleAPIClientForREST-MyBusinessNotificationSettings",
+            targets: ["GoogleAPIClientForREST-MyBusinessNotificationSettings"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessPlaceActions",
-            targets: ["GoogleAPIClientForREST_MyBusinessPlaceActions"]
+            name: "GoogleAPIClientForREST-MyBusinessPlaceActions",
+            targets: ["GoogleAPIClientForREST-MyBusinessPlaceActions"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessQA",
-            targets: ["GoogleAPIClientForREST_MyBusinessQA"]
+            name: "GoogleAPIClientForREST-MyBusinessQA",
+            targets: ["GoogleAPIClientForREST-MyBusinessQA"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_MyBusinessVerifications",
-            targets: ["GoogleAPIClientForREST_MyBusinessVerifications"]
+            name: "GoogleAPIClientForREST-MyBusinessVerifications",
+            targets: ["GoogleAPIClientForREST-MyBusinessVerifications"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Networkconnectivity",
-            targets: ["GoogleAPIClientForREST_Networkconnectivity"]
+            name: "GoogleAPIClientForREST-Networkconnectivity",
+            targets: ["GoogleAPIClientForREST-Networkconnectivity"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_NetworkManagement",
-            targets: ["GoogleAPIClientForREST_NetworkManagement"]
+            name: "GoogleAPIClientForREST-NetworkManagement",
+            targets: ["GoogleAPIClientForREST-NetworkManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_NetworkSecurity",
-            targets: ["GoogleAPIClientForREST_NetworkSecurity"]
+            name: "GoogleAPIClientForREST-NetworkSecurity",
+            targets: ["GoogleAPIClientForREST-NetworkSecurity"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_NetworkServices",
-            targets: ["GoogleAPIClientForREST_NetworkServices"]
+            name: "GoogleAPIClientForREST-NetworkServices",
+            targets: ["GoogleAPIClientForREST-NetworkServices"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Oauth2",
-            targets: ["GoogleAPIClientForREST_Oauth2"]
+            name: "GoogleAPIClientForREST-Oauth2",
+            targets: ["GoogleAPIClientForREST-Oauth2"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_OnDemandScanning",
-            targets: ["GoogleAPIClientForREST_OnDemandScanning"]
+            name: "GoogleAPIClientForREST-OnDemandScanning",
+            targets: ["GoogleAPIClientForREST-OnDemandScanning"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_OrgPolicyAPI",
-            targets: ["GoogleAPIClientForREST_OrgPolicyAPI"]
+            name: "GoogleAPIClientForREST-OrgPolicyAPI",
+            targets: ["GoogleAPIClientForREST-OrgPolicyAPI"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_OSConfig",
-            targets: ["GoogleAPIClientForREST_OSConfig"]
+            name: "GoogleAPIClientForREST-OSConfig",
+            targets: ["GoogleAPIClientForREST-OSConfig"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PagespeedInsights",
-            targets: ["GoogleAPIClientForREST_PagespeedInsights"]
+            name: "GoogleAPIClientForREST-PagespeedInsights",
+            targets: ["GoogleAPIClientForREST-PagespeedInsights"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PaymentsResellerSubscription",
-            targets: ["GoogleAPIClientForREST_PaymentsResellerSubscription"]
+            name: "GoogleAPIClientForREST-PaymentsResellerSubscription",
+            targets: ["GoogleAPIClientForREST-PaymentsResellerSubscription"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PeopleService",
-            targets: ["GoogleAPIClientForREST_PeopleService"]
+            name: "GoogleAPIClientForREST-PeopleService",
+            targets: ["GoogleAPIClientForREST-PeopleService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Playcustomapp",
-            targets: ["GoogleAPIClientForREST_Playcustomapp"]
+            name: "GoogleAPIClientForREST-Playcustomapp",
+            targets: ["GoogleAPIClientForREST-Playcustomapp"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Playdeveloperreporting",
-            targets: ["GoogleAPIClientForREST_Playdeveloperreporting"]
+            name: "GoogleAPIClientForREST-Playdeveloperreporting",
+            targets: ["GoogleAPIClientForREST-Playdeveloperreporting"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PlayGrouping",
-            targets: ["GoogleAPIClientForREST_PlayGrouping"]
+            name: "GoogleAPIClientForREST-PlayGrouping",
+            targets: ["GoogleAPIClientForREST-PlayGrouping"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PlayIntegrity",
-            targets: ["GoogleAPIClientForREST_PlayIntegrity"]
+            name: "GoogleAPIClientForREST-PlayIntegrity",
+            targets: ["GoogleAPIClientForREST-PlayIntegrity"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PolicyAnalyzer",
-            targets: ["GoogleAPIClientForREST_PolicyAnalyzer"]
+            name: "GoogleAPIClientForREST-PolicyAnalyzer",
+            targets: ["GoogleAPIClientForREST-PolicyAnalyzer"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PolicySimulator",
-            targets: ["GoogleAPIClientForREST_PolicySimulator"]
+            name: "GoogleAPIClientForREST-PolicySimulator",
+            targets: ["GoogleAPIClientForREST-PolicySimulator"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PolicyTroubleshooter",
-            targets: ["GoogleAPIClientForREST_PolicyTroubleshooter"]
+            name: "GoogleAPIClientForREST-PolicyTroubleshooter",
+            targets: ["GoogleAPIClientForREST-PolicyTroubleshooter"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Pollen",
-            targets: ["GoogleAPIClientForREST_Pollen"]
+            name: "GoogleAPIClientForREST-Pollen",
+            targets: ["GoogleAPIClientForREST-Pollen"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PolyService",
-            targets: ["GoogleAPIClientForREST_PolyService"]
+            name: "GoogleAPIClientForREST-PolyService",
+            targets: ["GoogleAPIClientForREST-PolyService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PostmasterTools",
-            targets: ["GoogleAPIClientForREST_PostmasterTools"]
+            name: "GoogleAPIClientForREST-PostmasterTools",
+            targets: ["GoogleAPIClientForREST-PostmasterTools"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PublicCertificateAuthority",
-            targets: ["GoogleAPIClientForREST_PublicCertificateAuthority"]
+            name: "GoogleAPIClientForREST-PublicCertificateAuthority",
+            targets: ["GoogleAPIClientForREST-PublicCertificateAuthority"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Pubsub",
-            targets: ["GoogleAPIClientForREST_Pubsub"]
+            name: "GoogleAPIClientForREST-Pubsub",
+            targets: ["GoogleAPIClientForREST-Pubsub"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_PubsubLite",
-            targets: ["GoogleAPIClientForREST_PubsubLite"]
+            name: "GoogleAPIClientForREST-PubsubLite",
+            targets: ["GoogleAPIClientForREST-PubsubLite"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_RapidMigrationAssessment",
-            targets: ["GoogleAPIClientForREST_RapidMigrationAssessment"]
+            name: "GoogleAPIClientForREST-RapidMigrationAssessment",
+            targets: ["GoogleAPIClientForREST-RapidMigrationAssessment"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_RealTimeBidding",
-            targets: ["GoogleAPIClientForREST_RealTimeBidding"]
+            name: "GoogleAPIClientForREST-RealTimeBidding",
+            targets: ["GoogleAPIClientForREST-RealTimeBidding"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_RecaptchaEnterprise",
-            targets: ["GoogleAPIClientForREST_RecaptchaEnterprise"]
+            name: "GoogleAPIClientForREST-RecaptchaEnterprise",
+            targets: ["GoogleAPIClientForREST-RecaptchaEnterprise"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_RecommendationsAI",
-            targets: ["GoogleAPIClientForREST_RecommendationsAI"]
+            name: "GoogleAPIClientForREST-RecommendationsAI",
+            targets: ["GoogleAPIClientForREST-RecommendationsAI"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Recommender",
-            targets: ["GoogleAPIClientForREST_Recommender"]
+            name: "GoogleAPIClientForREST-Recommender",
+            targets: ["GoogleAPIClientForREST-Recommender"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Reports",
-            targets: ["GoogleAPIClientForREST_Reports"]
+            name: "GoogleAPIClientForREST-Reports",
+            targets: ["GoogleAPIClientForREST-Reports"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Reseller",
-            targets: ["GoogleAPIClientForREST_Reseller"]
+            name: "GoogleAPIClientForREST-Reseller",
+            targets: ["GoogleAPIClientForREST-Reseller"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ResourceSettings",
-            targets: ["GoogleAPIClientForREST_ResourceSettings"]
+            name: "GoogleAPIClientForREST-ResourceSettings",
+            targets: ["GoogleAPIClientForREST-ResourceSettings"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SA360",
-            targets: ["GoogleAPIClientForREST_SA360"]
+            name: "GoogleAPIClientForREST-SA360",
+            targets: ["GoogleAPIClientForREST-SA360"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Safebrowsing",
-            targets: ["GoogleAPIClientForREST_Safebrowsing"]
+            name: "GoogleAPIClientForREST-Safebrowsing",
+            targets: ["GoogleAPIClientForREST-Safebrowsing"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SASPortal",
-            targets: ["GoogleAPIClientForREST_SASPortal"]
+            name: "GoogleAPIClientForREST-SASPortal",
+            targets: ["GoogleAPIClientForREST-SASPortal"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Script",
-            targets: ["GoogleAPIClientForREST_Script"]
+            name: "GoogleAPIClientForREST-Script",
+            targets: ["GoogleAPIClientForREST-Script"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SearchConsole",
-            targets: ["GoogleAPIClientForREST_SearchConsole"]
+            name: "GoogleAPIClientForREST-SearchConsole",
+            targets: ["GoogleAPIClientForREST-SearchConsole"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SecretManager",
-            targets: ["GoogleAPIClientForREST_SecretManager"]
+            name: "GoogleAPIClientForREST-SecretManager",
+            targets: ["GoogleAPIClientForREST-SecretManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SecurityCommandCenter",
-            targets: ["GoogleAPIClientForREST_SecurityCommandCenter"]
+            name: "GoogleAPIClientForREST-SecurityCommandCenter",
+            targets: ["GoogleAPIClientForREST-SecurityCommandCenter"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServerlessVPCAccess",
-            targets: ["GoogleAPIClientForREST_ServerlessVPCAccess"]
+            name: "GoogleAPIClientForREST-ServerlessVPCAccess",
+            targets: ["GoogleAPIClientForREST-ServerlessVPCAccess"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServiceConsumerManagement",
-            targets: ["GoogleAPIClientForREST_ServiceConsumerManagement"]
+            name: "GoogleAPIClientForREST-ServiceConsumerManagement",
+            targets: ["GoogleAPIClientForREST-ServiceConsumerManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServiceControl",
-            targets: ["GoogleAPIClientForREST_ServiceControl"]
+            name: "GoogleAPIClientForREST-ServiceControl",
+            targets: ["GoogleAPIClientForREST-ServiceControl"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServiceDirectory",
-            targets: ["GoogleAPIClientForREST_ServiceDirectory"]
+            name: "GoogleAPIClientForREST-ServiceDirectory",
+            targets: ["GoogleAPIClientForREST-ServiceDirectory"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServiceManagement",
-            targets: ["GoogleAPIClientForREST_ServiceManagement"]
+            name: "GoogleAPIClientForREST-ServiceManagement",
+            targets: ["GoogleAPIClientForREST-ServiceManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServiceNetworking",
-            targets: ["GoogleAPIClientForREST_ServiceNetworking"]
+            name: "GoogleAPIClientForREST-ServiceNetworking",
+            targets: ["GoogleAPIClientForREST-ServiceNetworking"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ServiceUsage",
-            targets: ["GoogleAPIClientForREST_ServiceUsage"]
+            name: "GoogleAPIClientForREST-ServiceUsage",
+            targets: ["GoogleAPIClientForREST-ServiceUsage"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Sheets",
-            targets: ["GoogleAPIClientForREST_Sheets"]
+            name: "GoogleAPIClientForREST-Sheets",
+            targets: ["GoogleAPIClientForREST-Sheets"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ShoppingContent",
-            targets: ["GoogleAPIClientForREST_ShoppingContent"]
+            name: "GoogleAPIClientForREST-ShoppingContent",
+            targets: ["GoogleAPIClientForREST-ShoppingContent"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SiteVerification",
-            targets: ["GoogleAPIClientForREST_SiteVerification"]
+            name: "GoogleAPIClientForREST-SiteVerification",
+            targets: ["GoogleAPIClientForREST-SiteVerification"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Slides",
-            targets: ["GoogleAPIClientForREST_Slides"]
+            name: "GoogleAPIClientForREST-Slides",
+            targets: ["GoogleAPIClientForREST-Slides"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SmartDeviceManagement",
-            targets: ["GoogleAPIClientForREST_SmartDeviceManagement"]
+            name: "GoogleAPIClientForREST-SmartDeviceManagement",
+            targets: ["GoogleAPIClientForREST-SmartDeviceManagement"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Solar",
-            targets: ["GoogleAPIClientForREST_Solar"]
+            name: "GoogleAPIClientForREST-Solar",
+            targets: ["GoogleAPIClientForREST-Solar"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Spanner",
-            targets: ["GoogleAPIClientForREST_Spanner"]
+            name: "GoogleAPIClientForREST-Spanner",
+            targets: ["GoogleAPIClientForREST-Spanner"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Speech",
-            targets: ["GoogleAPIClientForREST_Speech"]
+            name: "GoogleAPIClientForREST-Speech",
+            targets: ["GoogleAPIClientForREST-Speech"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SQLAdmin",
-            targets: ["GoogleAPIClientForREST_SQLAdmin"]
+            name: "GoogleAPIClientForREST-SQLAdmin",
+            targets: ["GoogleAPIClientForREST-SQLAdmin"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Storage",
-            targets: ["GoogleAPIClientForREST_Storage"]
+            name: "GoogleAPIClientForREST-Storage",
+            targets: ["GoogleAPIClientForREST-Storage"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_StorageTransfer",
-            targets: ["GoogleAPIClientForREST_StorageTransfer"]
+            name: "GoogleAPIClientForREST-StorageTransfer",
+            targets: ["GoogleAPIClientForREST-StorageTransfer"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_StreetViewPublish",
-            targets: ["GoogleAPIClientForREST_StreetViewPublish"]
+            name: "GoogleAPIClientForREST-StreetViewPublish",
+            targets: ["GoogleAPIClientForREST-StreetViewPublish"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_SubscriptionLinking",
-            targets: ["GoogleAPIClientForREST_SubscriptionLinking"]
+            name: "GoogleAPIClientForREST-SubscriptionLinking",
+            targets: ["GoogleAPIClientForREST-SubscriptionLinking"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_TagManager",
-            targets: ["GoogleAPIClientForREST_TagManager"]
+            name: "GoogleAPIClientForREST-TagManager",
+            targets: ["GoogleAPIClientForREST-TagManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Tasks",
-            targets: ["GoogleAPIClientForREST_Tasks"]
+            name: "GoogleAPIClientForREST-Tasks",
+            targets: ["GoogleAPIClientForREST-Tasks"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Testing",
-            targets: ["GoogleAPIClientForREST_Testing"]
+            name: "GoogleAPIClientForREST-Testing",
+            targets: ["GoogleAPIClientForREST-Testing"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Texttospeech",
-            targets: ["GoogleAPIClientForREST_Texttospeech"]
+            name: "GoogleAPIClientForREST-Texttospeech",
+            targets: ["GoogleAPIClientForREST-Texttospeech"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_ToolResults",
-            targets: ["GoogleAPIClientForREST_ToolResults"]
+            name: "GoogleAPIClientForREST-ToolResults",
+            targets: ["GoogleAPIClientForREST-ToolResults"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_TPU",
-            targets: ["GoogleAPIClientForREST_TPU"]
+            name: "GoogleAPIClientForREST-TPU",
+            targets: ["GoogleAPIClientForREST-TPU"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_TrafficDirectorService",
-            targets: ["GoogleAPIClientForREST_TrafficDirectorService"]
+            name: "GoogleAPIClientForREST-TrafficDirectorService",
+            targets: ["GoogleAPIClientForREST-TrafficDirectorService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Transcoder",
-            targets: ["GoogleAPIClientForREST_Transcoder"]
+            name: "GoogleAPIClientForREST-Transcoder",
+            targets: ["GoogleAPIClientForREST-Transcoder"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Translate",
-            targets: ["GoogleAPIClientForREST_Translate"]
+            name: "GoogleAPIClientForREST-Translate",
+            targets: ["GoogleAPIClientForREST-Translate"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_TravelImpactModel",
-            targets: ["GoogleAPIClientForREST_TravelImpactModel"]
+            name: "GoogleAPIClientForREST-TravelImpactModel",
+            targets: ["GoogleAPIClientForREST-TravelImpactModel"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Vault",
-            targets: ["GoogleAPIClientForREST_Vault"]
+            name: "GoogleAPIClientForREST-Vault",
+            targets: ["GoogleAPIClientForREST-Vault"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Verifiedaccess",
-            targets: ["GoogleAPIClientForREST_Verifiedaccess"]
+            name: "GoogleAPIClientForREST-Verifiedaccess",
+            targets: ["GoogleAPIClientForREST-Verifiedaccess"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_VersionHistory",
-            targets: ["GoogleAPIClientForREST_VersionHistory"]
+            name: "GoogleAPIClientForREST-VersionHistory",
+            targets: ["GoogleAPIClientForREST-VersionHistory"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Vision",
-            targets: ["GoogleAPIClientForREST_Vision"]
+            name: "GoogleAPIClientForREST-Vision",
+            targets: ["GoogleAPIClientForREST-Vision"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_VMMigrationService",
-            targets: ["GoogleAPIClientForREST_VMMigrationService"]
+            name: "GoogleAPIClientForREST-VMMigrationService",
+            targets: ["GoogleAPIClientForREST-VMMigrationService"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_VMwareEngine",
-            targets: ["GoogleAPIClientForREST_VMwareEngine"]
+            name: "GoogleAPIClientForREST-VMwareEngine",
+            targets: ["GoogleAPIClientForREST-VMwareEngine"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Walletobjects",
-            targets: ["GoogleAPIClientForREST_Walletobjects"]
+            name: "GoogleAPIClientForREST-Walletobjects",
+            targets: ["GoogleAPIClientForREST-Walletobjects"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Webfonts",
-            targets: ["GoogleAPIClientForREST_Webfonts"]
+            name: "GoogleAPIClientForREST-Webfonts",
+            targets: ["GoogleAPIClientForREST-Webfonts"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_WebRisk",
-            targets: ["GoogleAPIClientForREST_WebRisk"]
+            name: "GoogleAPIClientForREST-WebRisk",
+            targets: ["GoogleAPIClientForREST-WebRisk"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_WebSecurityScanner",
-            targets: ["GoogleAPIClientForREST_WebSecurityScanner"]
+            name: "GoogleAPIClientForREST-WebSecurityScanner",
+            targets: ["GoogleAPIClientForREST-WebSecurityScanner"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_WorkflowExecutions",
-            targets: ["GoogleAPIClientForREST_WorkflowExecutions"]
+            name: "GoogleAPIClientForREST-WorkflowExecutions",
+            targets: ["GoogleAPIClientForREST-WorkflowExecutions"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_Workflows",
-            targets: ["GoogleAPIClientForREST_Workflows"]
+            name: "GoogleAPIClientForREST-Workflows",
+            targets: ["GoogleAPIClientForREST-Workflows"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_WorkloadManager",
-            targets: ["GoogleAPIClientForREST_WorkloadManager"]
+            name: "GoogleAPIClientForREST-WorkloadManager",
+            targets: ["GoogleAPIClientForREST-WorkloadManager"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_WorkspaceEvents",
-            targets: ["GoogleAPIClientForREST_WorkspaceEvents"]
+            name: "GoogleAPIClientForREST-WorkspaceEvents",
+            targets: ["GoogleAPIClientForREST-WorkspaceEvents"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_YouTube",
-            targets: ["GoogleAPIClientForREST_YouTube"]
+            name: "GoogleAPIClientForREST-YouTube",
+            targets: ["GoogleAPIClientForREST-YouTube"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_YouTubeAnalytics",
-            targets: ["GoogleAPIClientForREST_YouTubeAnalytics"]
+            name: "GoogleAPIClientForREST-YouTubeAnalytics",
+            targets: ["GoogleAPIClientForREST-YouTubeAnalytics"]
         ),
         .library(
-            name: "GoogleAPIClientForREST_YouTubeReporting",
-            targets: ["GoogleAPIClientForREST_YouTubeReporting"]
+            name: "GoogleAPIClientForREST-YouTubeReporting",
+            targets: ["GoogleAPIClientForREST-YouTubeReporting"]
         ),
         // End of products.
     ],
@@ -1196,1717 +1196,1717 @@ let package = Package(
         ),
         // Targets for all the Services.
         .target(
-            name: "GoogleAPIClientForREST_AbusiveExperienceReport",
+            name: "GoogleAPIClientForREST-AbusiveExperienceReport",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AbusiveExperienceReport",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Acceleratedmobilepageurl",
+            name: "GoogleAPIClientForREST-Acceleratedmobilepageurl",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Acceleratedmobilepageurl",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AccessApproval",
+            name: "GoogleAPIClientForREST-AccessApproval",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AccessApproval",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AccessContextManager",
+            name: "GoogleAPIClientForREST-AccessContextManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AccessContextManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ACMEDNS",
+            name: "GoogleAPIClientForREST-ACMEDNS",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ACMEDNS",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AddressValidation",
+            name: "GoogleAPIClientForREST-AddressValidation",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AddressValidation",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AdExchangeBuyerII",
+            name: "GoogleAPIClientForREST-AdExchangeBuyerII",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AdExchangeBuyerII",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AdExperienceReport",
+            name: "GoogleAPIClientForREST-AdExperienceReport",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AdExperienceReport",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AdMob",
+            name: "GoogleAPIClientForREST-AdMob",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AdMob",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Adsense",
+            name: "GoogleAPIClientForREST-Adsense",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Adsense",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AdSenseHost",
+            name: "GoogleAPIClientForREST-AdSenseHost",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AdSenseHost",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Advisorynotifications",
+            name: "GoogleAPIClientForREST-Advisorynotifications",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Advisorynotifications",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Aiplatform",
+            name: "GoogleAPIClientForREST-Aiplatform",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Aiplatform",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AIPlatformNotebooks",
+            name: "GoogleAPIClientForREST-AIPlatformNotebooks",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AIPlatformNotebooks",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AirQuality",
+            name: "GoogleAPIClientForREST-AirQuality",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AirQuality",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AlertCenter",
+            name: "GoogleAPIClientForREST-AlertCenter",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AlertCenter",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Analytics",
+            name: "GoogleAPIClientForREST-Analytics",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Analytics",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AnalyticsData",
+            name: "GoogleAPIClientForREST-AnalyticsData",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AnalyticsData",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AnalyticsHub",
+            name: "GoogleAPIClientForREST-AnalyticsHub",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AnalyticsHub",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AnalyticsReporting",
+            name: "GoogleAPIClientForREST-AnalyticsReporting",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AnalyticsReporting",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AndroidEnterprise",
+            name: "GoogleAPIClientForREST-AndroidEnterprise",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AndroidEnterprise",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AndroidManagement",
+            name: "GoogleAPIClientForREST-AndroidManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AndroidManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AndroidProvisioningPartner",
+            name: "GoogleAPIClientForREST-AndroidProvisioningPartner",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AndroidProvisioningPartner",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AndroidPublisher",
+            name: "GoogleAPIClientForREST-AndroidPublisher",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AndroidPublisher",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_APIGateway",
+            name: "GoogleAPIClientForREST-APIGateway",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/APIGateway",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Apigee",
+            name: "GoogleAPIClientForREST-Apigee",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Apigee",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ApigeeRegistry",
+            name: "GoogleAPIClientForREST-ApigeeRegistry",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ApigeeRegistry",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ApiKeysService",
+            name: "GoogleAPIClientForREST-ApiKeysService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ApiKeysService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_APIManagement",
+            name: "GoogleAPIClientForREST-APIManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/APIManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Appengine",
+            name: "GoogleAPIClientForREST-Appengine",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Appengine",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AppHub",
+            name: "GoogleAPIClientForREST-AppHub",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AppHub",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Area120Tables",
+            name: "GoogleAPIClientForREST-Area120Tables",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Area120Tables",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ArtifactRegistry",
+            name: "GoogleAPIClientForREST-ArtifactRegistry",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ArtifactRegistry",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Assuredworkloads",
+            name: "GoogleAPIClientForREST-Assuredworkloads",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Assuredworkloads",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_AuthorizedBuyersMarketplace",
+            name: "GoogleAPIClientForREST-AuthorizedBuyersMarketplace",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/AuthorizedBuyersMarketplace",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Backupdr",
+            name: "GoogleAPIClientForREST-Backupdr",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Backupdr",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BackupforGKE",
+            name: "GoogleAPIClientForREST-BackupforGKE",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BackupforGKE",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BareMetalSolution",
+            name: "GoogleAPIClientForREST-BareMetalSolution",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BareMetalSolution",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BeyondCorp",
+            name: "GoogleAPIClientForREST-BeyondCorp",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BeyondCorp",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BigLakeService",
+            name: "GoogleAPIClientForREST-BigLakeService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BigLakeService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Bigquery",
+            name: "GoogleAPIClientForREST-Bigquery",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Bigquery",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BigQueryConnectionService",
+            name: "GoogleAPIClientForREST-BigQueryConnectionService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BigQueryConnectionService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BigQueryDataPolicyService",
+            name: "GoogleAPIClientForREST-BigQueryDataPolicyService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BigQueryDataPolicyService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BigQueryDataTransfer",
+            name: "GoogleAPIClientForREST-BigQueryDataTransfer",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BigQueryDataTransfer",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BigQueryReservation",
+            name: "GoogleAPIClientForREST-BigQueryReservation",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BigQueryReservation",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BigtableAdmin",
+            name: "GoogleAPIClientForREST-BigtableAdmin",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BigtableAdmin",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BinaryAuthorization",
+            name: "GoogleAPIClientForREST-BinaryAuthorization",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BinaryAuthorization",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BlockchainNodeEngine",
+            name: "GoogleAPIClientForREST-BlockchainNodeEngine",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BlockchainNodeEngine",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Blogger",
+            name: "GoogleAPIClientForREST-Blogger",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Blogger",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Books",
+            name: "GoogleAPIClientForREST-Books",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Books",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_BusinessProfilePerformance",
+            name: "GoogleAPIClientForREST-BusinessProfilePerformance",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/BusinessProfilePerformance",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Calendar",
+            name: "GoogleAPIClientForREST-Calendar",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Calendar",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CCAIPlatform",
+            name: "GoogleAPIClientForREST-CCAIPlatform",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CCAIPlatform",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CertificateAuthorityService",
+            name: "GoogleAPIClientForREST-CertificateAuthorityService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CertificateAuthorityService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CertificateManager",
+            name: "GoogleAPIClientForREST-CertificateManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CertificateManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ChecksService",
+            name: "GoogleAPIClientForREST-ChecksService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ChecksService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ChromeManagement",
+            name: "GoogleAPIClientForREST-ChromeManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ChromeManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ChromePolicy",
+            name: "GoogleAPIClientForREST-ChromePolicy",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ChromePolicy",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ChromeUXReport",
+            name: "GoogleAPIClientForREST-ChromeUXReport",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ChromeUXReport",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CivicInfo",
+            name: "GoogleAPIClientForREST-CivicInfo",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CivicInfo",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Classroom",
+            name: "GoogleAPIClientForREST-Classroom",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Classroom",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudAlloyDBAdmin",
+            name: "GoogleAPIClientForREST-CloudAlloyDBAdmin",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudAlloyDBAdmin",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudAsset",
+            name: "GoogleAPIClientForREST-CloudAsset",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudAsset",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudBatch",
+            name: "GoogleAPIClientForREST-CloudBatch",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudBatch",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Cloudbilling",
+            name: "GoogleAPIClientForREST-Cloudbilling",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Cloudbilling",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudBillingBudget",
+            name: "GoogleAPIClientForREST-CloudBillingBudget",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudBillingBudget",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudBuild",
+            name: "GoogleAPIClientForREST-CloudBuild",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudBuild",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Cloudchannel",
+            name: "GoogleAPIClientForREST-Cloudchannel",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Cloudchannel",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudComposer",
+            name: "GoogleAPIClientForREST-CloudComposer",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudComposer",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudControlsPartnerService",
+            name: "GoogleAPIClientForREST-CloudControlsPartnerService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudControlsPartnerService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudDataplex",
+            name: "GoogleAPIClientForREST-CloudDataplex",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudDataplex",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudDeploy",
+            name: "GoogleAPIClientForREST-CloudDeploy",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudDeploy",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudDomains",
+            name: "GoogleAPIClientForREST-CloudDomains",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudDomains",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Clouderrorreporting",
+            name: "GoogleAPIClientForREST-Clouderrorreporting",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Clouderrorreporting",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudFilestore",
+            name: "GoogleAPIClientForREST-CloudFilestore",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudFilestore",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudFunctions",
+            name: "GoogleAPIClientForREST-CloudFunctions",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudFunctions",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudHealthcare",
+            name: "GoogleAPIClientForREST-CloudHealthcare",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudHealthcare",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudIAP",
+            name: "GoogleAPIClientForREST-CloudIAP",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudIAP",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudIdentity",
+            name: "GoogleAPIClientForREST-CloudIdentity",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudIdentity",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudKMS",
+            name: "GoogleAPIClientForREST-CloudKMS",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudKMS",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudLifeSciences",
+            name: "GoogleAPIClientForREST-CloudLifeSciences",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudLifeSciences",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudMachineLearningEngine",
+            name: "GoogleAPIClientForREST-CloudMachineLearningEngine",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudMachineLearningEngine",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudMemorystoreforMemcached",
+            name: "GoogleAPIClientForREST-CloudMemorystoreforMemcached",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudMemorystoreforMemcached",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudNaturalLanguage",
+            name: "GoogleAPIClientForREST-CloudNaturalLanguage",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudNaturalLanguage",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudOSLogin",
+            name: "GoogleAPIClientForREST-CloudOSLogin",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudOSLogin",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudProfiler",
+            name: "GoogleAPIClientForREST-CloudProfiler",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudProfiler",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudRedis",
+            name: "GoogleAPIClientForREST-CloudRedis",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudRedis",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudResourceManager",
+            name: "GoogleAPIClientForREST-CloudResourceManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudResourceManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudRetail",
+            name: "GoogleAPIClientForREST-CloudRetail",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudRetail",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudRun",
+            name: "GoogleAPIClientForREST-CloudRun",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudRun",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudRuntimeConfig",
+            name: "GoogleAPIClientForREST-CloudRuntimeConfig",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudRuntimeConfig",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudScheduler",
+            name: "GoogleAPIClientForREST-CloudScheduler",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudScheduler",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudSearch",
+            name: "GoogleAPIClientForREST-CloudSearch",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudSearch",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudSecurityToken",
+            name: "GoogleAPIClientForREST-CloudSecurityToken",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudSecurityToken",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudShell",
+            name: "GoogleAPIClientForREST-CloudShell",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudShell",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudSourceRepositories",
+            name: "GoogleAPIClientForREST-CloudSourceRepositories",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudSourceRepositories",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudSupport",
+            name: "GoogleAPIClientForREST-CloudSupport",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudSupport",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudTalentSolution",
+            name: "GoogleAPIClientForREST-CloudTalentSolution",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudTalentSolution",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudTasks",
+            name: "GoogleAPIClientForREST-CloudTasks",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudTasks",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudTrace",
+            name: "GoogleAPIClientForREST-CloudTrace",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudTrace",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudVideoIntelligence",
+            name: "GoogleAPIClientForREST-CloudVideoIntelligence",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudVideoIntelligence",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CloudWorkstations",
+            name: "GoogleAPIClientForREST-CloudWorkstations",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CloudWorkstations",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Compute",
+            name: "GoogleAPIClientForREST-Compute",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Compute",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Config",
+            name: "GoogleAPIClientForREST-Config",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Config",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Connectors",
+            name: "GoogleAPIClientForREST-Connectors",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Connectors",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Contactcenterinsights",
+            name: "GoogleAPIClientForREST-Contactcenterinsights",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Contactcenterinsights",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Container",
+            name: "GoogleAPIClientForREST-Container",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Container",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ContainerAnalysis",
+            name: "GoogleAPIClientForREST-ContainerAnalysis",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ContainerAnalysis",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Contentwarehouse",
+            name: "GoogleAPIClientForREST-Contentwarehouse",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Contentwarehouse",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_CustomSearchAPI",
+            name: "GoogleAPIClientForREST-CustomSearchAPI",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/CustomSearchAPI",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DatabaseMigrationService",
+            name: "GoogleAPIClientForREST-DatabaseMigrationService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DatabaseMigrationService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DataCatalog",
+            name: "GoogleAPIClientForREST-DataCatalog",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DataCatalog",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Dataflow",
+            name: "GoogleAPIClientForREST-Dataflow",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Dataflow",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Dataform",
+            name: "GoogleAPIClientForREST-Dataform",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Dataform",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DataFusion",
+            name: "GoogleAPIClientForREST-DataFusion",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DataFusion",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DataLabeling",
+            name: "GoogleAPIClientForREST-DataLabeling",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DataLabeling",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Datalineage",
+            name: "GoogleAPIClientForREST-Datalineage",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Datalineage",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Datapipelines",
+            name: "GoogleAPIClientForREST-Datapipelines",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Datapipelines",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DataPortability",
+            name: "GoogleAPIClientForREST-DataPortability",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DataPortability",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Dataproc",
+            name: "GoogleAPIClientForREST-Dataproc",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Dataproc",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DataprocMetastore",
+            name: "GoogleAPIClientForREST-DataprocMetastore",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DataprocMetastore",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Datastore",
+            name: "GoogleAPIClientForREST-Datastore",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Datastore",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Datastream",
+            name: "GoogleAPIClientForREST-Datastream",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Datastream",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DataTransfer",
+            name: "GoogleAPIClientForREST-DataTransfer",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DataTransfer",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DeploymentManager",
+            name: "GoogleAPIClientForREST-DeploymentManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DeploymentManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DeveloperConnect",
+            name: "GoogleAPIClientForREST-DeveloperConnect",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DeveloperConnect",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Dfareporting",
+            name: "GoogleAPIClientForREST-Dfareporting",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Dfareporting",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Dialogflow",
+            name: "GoogleAPIClientForREST-Dialogflow",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Dialogflow",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DigitalAssetLinks",
+            name: "GoogleAPIClientForREST-DigitalAssetLinks",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DigitalAssetLinks",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Directory",
+            name: "GoogleAPIClientForREST-Directory",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Directory",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Discovery",
+            name: "GoogleAPIClientForREST-Discovery",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Discovery",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DiscoveryEngine",
+            name: "GoogleAPIClientForREST-DiscoveryEngine",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DiscoveryEngine",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DisplayVideo",
+            name: "GoogleAPIClientForREST-DisplayVideo",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DisplayVideo",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DLP",
+            name: "GoogleAPIClientForREST-DLP",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DLP",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Dns",
+            name: "GoogleAPIClientForREST-Dns",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Dns",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Docs",
+            name: "GoogleAPIClientForREST-Docs",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Docs",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Document",
+            name: "GoogleAPIClientForREST-Document",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Document",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DomainsRDAP",
+            name: "GoogleAPIClientForREST-DomainsRDAP",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DomainsRDAP",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DoubleClickBidManager",
+            name: "GoogleAPIClientForREST-DoubleClickBidManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DoubleClickBidManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Doubleclicksearch",
+            name: "GoogleAPIClientForREST-Doubleclicksearch",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Doubleclicksearch",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Drive",
+            name: "GoogleAPIClientForREST-Drive",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Drive",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DriveActivity",
+            name: "GoogleAPIClientForREST-DriveActivity",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DriveActivity",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_DriveLabels",
+            name: "GoogleAPIClientForREST-DriveLabels",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/DriveLabels",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Essentialcontacts",
+            name: "GoogleAPIClientForREST-Essentialcontacts",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Essentialcontacts",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Eventarc",
+            name: "GoogleAPIClientForREST-Eventarc",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Eventarc",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FactCheckTools",
+            name: "GoogleAPIClientForREST-FactCheckTools",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FactCheckTools",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Fcmdata",
+            name: "GoogleAPIClientForREST-Fcmdata",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Fcmdata",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Firebaseappcheck",
+            name: "GoogleAPIClientForREST-Firebaseappcheck",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Firebaseappcheck",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseAppDistribution",
+            name: "GoogleAPIClientForREST-FirebaseAppDistribution",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseAppDistribution",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseCloudMessaging",
+            name: "GoogleAPIClientForREST-FirebaseCloudMessaging",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseCloudMessaging",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseDynamicLinks",
+            name: "GoogleAPIClientForREST-FirebaseDynamicLinks",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseDynamicLinks",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseHosting",
+            name: "GoogleAPIClientForREST-FirebaseHosting",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseHosting",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseManagement",
+            name: "GoogleAPIClientForREST-FirebaseManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseML",
+            name: "GoogleAPIClientForREST-FirebaseML",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseML",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseRealtimeDatabase",
+            name: "GoogleAPIClientForREST-FirebaseRealtimeDatabase",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseRealtimeDatabase",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_FirebaseRules",
+            name: "GoogleAPIClientForREST-FirebaseRules",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/FirebaseRules",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Firebasestorage",
+            name: "GoogleAPIClientForREST-Firebasestorage",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Firebasestorage",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Firestore",
+            name: "GoogleAPIClientForREST-Firestore",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Firestore",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Fitness",
+            name: "GoogleAPIClientForREST-Fitness",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Fitness",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Forms",
+            name: "GoogleAPIClientForREST-Forms",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Forms",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Games",
+            name: "GoogleAPIClientForREST-Games",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Games",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GamesConfiguration",
+            name: "GoogleAPIClientForREST-GamesConfiguration",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GamesConfiguration",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GamesManagement",
+            name: "GoogleAPIClientForREST-GamesManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GamesManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GKEHub",
+            name: "GoogleAPIClientForREST-GKEHub",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GKEHub",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GKEOnPrem",
+            name: "GoogleAPIClientForREST-GKEOnPrem",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GKEOnPrem",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Gmail",
+            name: "GoogleAPIClientForREST-Gmail",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Gmail",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GoogleAnalyticsAdmin",
+            name: "GoogleAPIClientForREST-GoogleAnalyticsAdmin",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GoogleAnalyticsAdmin",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GoogleMarketingPlatformAdminAPI",
+            name: "GoogleAPIClientForREST-GoogleMarketingPlatformAdminAPI",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GoogleMarketingPlatformAdminAPI",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GroupsMigration",
+            name: "GoogleAPIClientForREST-GroupsMigration",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GroupsMigration",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_GroupsSettings",
+            name: "GoogleAPIClientForREST-GroupsSettings",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/GroupsSettings",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_HangoutsChat",
+            name: "GoogleAPIClientForREST-HangoutsChat",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/HangoutsChat",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_HomeGraphService",
+            name: "GoogleAPIClientForREST-HomeGraphService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/HomeGraphService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Iam",
+            name: "GoogleAPIClientForREST-Iam",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Iam",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_IAMCredentials",
+            name: "GoogleAPIClientForREST-IAMCredentials",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/IAMCredentials",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_IdentityToolkit",
+            name: "GoogleAPIClientForREST-IdentityToolkit",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/IdentityToolkit",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_IDS",
+            name: "GoogleAPIClientForREST-IDS",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/IDS",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Indexing",
+            name: "GoogleAPIClientForREST-Indexing",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Indexing",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Integrations",
+            name: "GoogleAPIClientForREST-Integrations",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Integrations",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Keep",
+            name: "GoogleAPIClientForREST-Keep",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Keep",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Kgsearch",
+            name: "GoogleAPIClientForREST-Kgsearch",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Kgsearch",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Kmsinventory",
+            name: "GoogleAPIClientForREST-Kmsinventory",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Kmsinventory",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Libraryagent",
+            name: "GoogleAPIClientForREST-Libraryagent",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Libraryagent",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Licensing",
+            name: "GoogleAPIClientForREST-Licensing",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Licensing",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Localservices",
+            name: "GoogleAPIClientForREST-Localservices",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Localservices",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Logging",
+            name: "GoogleAPIClientForREST-Logging",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Logging",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Looker",
+            name: "GoogleAPIClientForREST-Looker",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Looker",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ManagedServiceforMicrosoftActiveDirectoryConsumerAPI",
+            name: "GoogleAPIClientForREST-ManagedServiceforMicrosoftActiveDirectoryConsumerAPI",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ManagedServiceforMicrosoftActiveDirectoryConsumerAPI",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ManufacturerCenter",
+            name: "GoogleAPIClientForREST-ManufacturerCenter",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ManufacturerCenter",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MapsPlaces",
+            name: "GoogleAPIClientForREST-MapsPlaces",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MapsPlaces",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Meet",
+            name: "GoogleAPIClientForREST-Meet",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Meet",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Merchant",
+            name: "GoogleAPIClientForREST-Merchant",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Merchant",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MigrationCenterAPI",
+            name: "GoogleAPIClientForREST-MigrationCenterAPI",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MigrationCenterAPI",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Monitoring",
+            name: "GoogleAPIClientForREST-Monitoring",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Monitoring",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessAccountManagement",
+            name: "GoogleAPIClientForREST-MyBusinessAccountManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessAccountManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessBusinessInformation",
+            name: "GoogleAPIClientForREST-MyBusinessBusinessInformation",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessBusinessInformation",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessLodging",
+            name: "GoogleAPIClientForREST-MyBusinessLodging",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessLodging",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessNotificationSettings",
+            name: "GoogleAPIClientForREST-MyBusinessNotificationSettings",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessNotificationSettings",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessPlaceActions",
+            name: "GoogleAPIClientForREST-MyBusinessPlaceActions",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessPlaceActions",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessQA",
+            name: "GoogleAPIClientForREST-MyBusinessQA",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessQA",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_MyBusinessVerifications",
+            name: "GoogleAPIClientForREST-MyBusinessVerifications",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/MyBusinessVerifications",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Networkconnectivity",
+            name: "GoogleAPIClientForREST-Networkconnectivity",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Networkconnectivity",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_NetworkManagement",
+            name: "GoogleAPIClientForREST-NetworkManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/NetworkManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_NetworkSecurity",
+            name: "GoogleAPIClientForREST-NetworkSecurity",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/NetworkSecurity",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_NetworkServices",
+            name: "GoogleAPIClientForREST-NetworkServices",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/NetworkServices",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Oauth2",
+            name: "GoogleAPIClientForREST-Oauth2",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Oauth2",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_OnDemandScanning",
+            name: "GoogleAPIClientForREST-OnDemandScanning",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/OnDemandScanning",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_OrgPolicyAPI",
+            name: "GoogleAPIClientForREST-OrgPolicyAPI",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/OrgPolicyAPI",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_OSConfig",
+            name: "GoogleAPIClientForREST-OSConfig",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/OSConfig",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PagespeedInsights",
+            name: "GoogleAPIClientForREST-PagespeedInsights",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PagespeedInsights",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PaymentsResellerSubscription",
+            name: "GoogleAPIClientForREST-PaymentsResellerSubscription",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PaymentsResellerSubscription",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PeopleService",
+            name: "GoogleAPIClientForREST-PeopleService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PeopleService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Playcustomapp",
+            name: "GoogleAPIClientForREST-Playcustomapp",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Playcustomapp",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Playdeveloperreporting",
+            name: "GoogleAPIClientForREST-Playdeveloperreporting",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Playdeveloperreporting",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PlayGrouping",
+            name: "GoogleAPIClientForREST-PlayGrouping",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PlayGrouping",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PlayIntegrity",
+            name: "GoogleAPIClientForREST-PlayIntegrity",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PlayIntegrity",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PolicyAnalyzer",
+            name: "GoogleAPIClientForREST-PolicyAnalyzer",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PolicyAnalyzer",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PolicySimulator",
+            name: "GoogleAPIClientForREST-PolicySimulator",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PolicySimulator",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PolicyTroubleshooter",
+            name: "GoogleAPIClientForREST-PolicyTroubleshooter",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PolicyTroubleshooter",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Pollen",
+            name: "GoogleAPIClientForREST-Pollen",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Pollen",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PolyService",
+            name: "GoogleAPIClientForREST-PolyService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PolyService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PostmasterTools",
+            name: "GoogleAPIClientForREST-PostmasterTools",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PostmasterTools",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PublicCertificateAuthority",
+            name: "GoogleAPIClientForREST-PublicCertificateAuthority",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PublicCertificateAuthority",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Pubsub",
+            name: "GoogleAPIClientForREST-Pubsub",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Pubsub",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_PubsubLite",
+            name: "GoogleAPIClientForREST-PubsubLite",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/PubsubLite",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_RapidMigrationAssessment",
+            name: "GoogleAPIClientForREST-RapidMigrationAssessment",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/RapidMigrationAssessment",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_RealTimeBidding",
+            name: "GoogleAPIClientForREST-RealTimeBidding",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/RealTimeBidding",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_RecaptchaEnterprise",
+            name: "GoogleAPIClientForREST-RecaptchaEnterprise",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/RecaptchaEnterprise",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_RecommendationsAI",
+            name: "GoogleAPIClientForREST-RecommendationsAI",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/RecommendationsAI",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Recommender",
+            name: "GoogleAPIClientForREST-Recommender",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Recommender",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Reports",
+            name: "GoogleAPIClientForREST-Reports",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Reports",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Reseller",
+            name: "GoogleAPIClientForREST-Reseller",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Reseller",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ResourceSettings",
+            name: "GoogleAPIClientForREST-ResourceSettings",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ResourceSettings",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SA360",
+            name: "GoogleAPIClientForREST-SA360",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SA360",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Safebrowsing",
+            name: "GoogleAPIClientForREST-Safebrowsing",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Safebrowsing",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SASPortal",
+            name: "GoogleAPIClientForREST-SASPortal",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SASPortal",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Script",
+            name: "GoogleAPIClientForREST-Script",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Script",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SearchConsole",
+            name: "GoogleAPIClientForREST-SearchConsole",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SearchConsole",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SecretManager",
+            name: "GoogleAPIClientForREST-SecretManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SecretManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SecurityCommandCenter",
+            name: "GoogleAPIClientForREST-SecurityCommandCenter",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SecurityCommandCenter",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServerlessVPCAccess",
+            name: "GoogleAPIClientForREST-ServerlessVPCAccess",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServerlessVPCAccess",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServiceConsumerManagement",
+            name: "GoogleAPIClientForREST-ServiceConsumerManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServiceConsumerManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServiceControl",
+            name: "GoogleAPIClientForREST-ServiceControl",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServiceControl",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServiceDirectory",
+            name: "GoogleAPIClientForREST-ServiceDirectory",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServiceDirectory",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServiceManagement",
+            name: "GoogleAPIClientForREST-ServiceManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServiceManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServiceNetworking",
+            name: "GoogleAPIClientForREST-ServiceNetworking",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServiceNetworking",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ServiceUsage",
+            name: "GoogleAPIClientForREST-ServiceUsage",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ServiceUsage",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Sheets",
+            name: "GoogleAPIClientForREST-Sheets",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Sheets",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ShoppingContent",
+            name: "GoogleAPIClientForREST-ShoppingContent",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ShoppingContent",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SiteVerification",
+            name: "GoogleAPIClientForREST-SiteVerification",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SiteVerification",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Slides",
+            name: "GoogleAPIClientForREST-Slides",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Slides",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SmartDeviceManagement",
+            name: "GoogleAPIClientForREST-SmartDeviceManagement",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SmartDeviceManagement",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Solar",
+            name: "GoogleAPIClientForREST-Solar",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Solar",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Spanner",
+            name: "GoogleAPIClientForREST-Spanner",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Spanner",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Speech",
+            name: "GoogleAPIClientForREST-Speech",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Speech",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SQLAdmin",
+            name: "GoogleAPIClientForREST-SQLAdmin",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SQLAdmin",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Storage",
+            name: "GoogleAPIClientForREST-Storage",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Storage",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_StorageTransfer",
+            name: "GoogleAPIClientForREST-StorageTransfer",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/StorageTransfer",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_StreetViewPublish",
+            name: "GoogleAPIClientForREST-StreetViewPublish",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/StreetViewPublish",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_SubscriptionLinking",
+            name: "GoogleAPIClientForREST-SubscriptionLinking",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/SubscriptionLinking",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_TagManager",
+            name: "GoogleAPIClientForREST-TagManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/TagManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Tasks",
+            name: "GoogleAPIClientForREST-Tasks",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Tasks",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Testing",
+            name: "GoogleAPIClientForREST-Testing",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Testing",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Texttospeech",
+            name: "GoogleAPIClientForREST-Texttospeech",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Texttospeech",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_ToolResults",
+            name: "GoogleAPIClientForREST-ToolResults",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/ToolResults",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_TPU",
+            name: "GoogleAPIClientForREST-TPU",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/TPU",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_TrafficDirectorService",
+            name: "GoogleAPIClientForREST-TrafficDirectorService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/TrafficDirectorService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Transcoder",
+            name: "GoogleAPIClientForREST-Transcoder",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Transcoder",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Translate",
+            name: "GoogleAPIClientForREST-Translate",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Translate",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_TravelImpactModel",
+            name: "GoogleAPIClientForREST-TravelImpactModel",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/TravelImpactModel",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Vault",
+            name: "GoogleAPIClientForREST-Vault",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Vault",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Verifiedaccess",
+            name: "GoogleAPIClientForREST-Verifiedaccess",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Verifiedaccess",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_VersionHistory",
+            name: "GoogleAPIClientForREST-VersionHistory",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/VersionHistory",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Vision",
+            name: "GoogleAPIClientForREST-Vision",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Vision",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_VMMigrationService",
+            name: "GoogleAPIClientForREST-VMMigrationService",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/VMMigrationService",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_VMwareEngine",
+            name: "GoogleAPIClientForREST-VMwareEngine",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/VMwareEngine",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Walletobjects",
+            name: "GoogleAPIClientForREST-Walletobjects",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Walletobjects",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Webfonts",
+            name: "GoogleAPIClientForREST-Webfonts",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Webfonts",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_WebRisk",
+            name: "GoogleAPIClientForREST-WebRisk",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/WebRisk",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_WebSecurityScanner",
+            name: "GoogleAPIClientForREST-WebSecurityScanner",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/WebSecurityScanner",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_WorkflowExecutions",
+            name: "GoogleAPIClientForREST-WorkflowExecutions",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/WorkflowExecutions",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_Workflows",
+            name: "GoogleAPIClientForREST-Workflows",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/Workflows",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_WorkloadManager",
+            name: "GoogleAPIClientForREST-WorkloadManager",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/WorkloadManager",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_WorkspaceEvents",
+            name: "GoogleAPIClientForREST-WorkspaceEvents",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/WorkspaceEvents",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_YouTube",
+            name: "GoogleAPIClientForREST-YouTube",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/YouTube",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_YouTubeAnalytics",
+            name: "GoogleAPIClientForREST-YouTubeAnalytics",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/YouTubeAnalytics",
             publicHeadersPath: "Public"
         ),
         .target(
-            name: "GoogleAPIClientForREST_YouTubeReporting",
+            name: "GoogleAPIClientForREST-YouTubeReporting",
             dependencies: ["GoogleAPIClientForRESTCore"],
             path: "Sources/GeneratedServices/YouTubeReporting",
             publicHeadersPath: "Public"
